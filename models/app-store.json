@@ -1,0 +1,19 @@
+{
+    "info": 
+    {
+        "appTitle": "Playlist Maker",
+        "version": 0.2,
+        "creators":
+        [
+            {
+                "name": "Lee Fitzgerald",
+                "role": "Web Developer"
+            },
+            {
+                "name": "AM",
+                "role": "Web Developer"
+            }
+        ],
+        "location": "Carlow"
+    }
+}
