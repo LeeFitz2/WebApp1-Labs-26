@@ -1,0 +1,11 @@
+{
+    "employee": {
+        "name":"Tony",
+        "fullname":"Tony Green",
+        "image":"/tony.jpg",
+        "joined":2026,
+        "job":"Copper Collector",
+        "city":"Waterford",
+        "mates":47
+    }
+}
