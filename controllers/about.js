@@ -7,11 +7,10 @@ const about =
 {
   createView(request, response)
   {
-    logger.info('About page loading...');
 
     const viewData = {
       title: "About the Playlist App.",
-      info: employee.getAppInfo()
+      employees: employee.getAppInfo()
     };
 
     response.render("about", viewData)

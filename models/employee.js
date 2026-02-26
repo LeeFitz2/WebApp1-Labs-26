@@ -5,8 +5,9 @@ import JsonStore from "./json-store.js";
 
 const employee =
 {
-    employee: new JsonStore("./models/employee.json", {employee: {}}),
-    collection: "employee",
+    employee: new JsonStore("./models/employee.json", {employees: []}),
+    collection: "employees",
+    array: "employees",
 
     getAppInfo()
     {
