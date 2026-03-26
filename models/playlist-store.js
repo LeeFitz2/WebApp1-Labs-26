@@ -23,9 +23,20 @@ const playlistStore = {
         this.store.addItem(this.collection, id, this.array, song);
     },
 
+    removeSong(id, songId)
+    {
+        this.store.removeItem(this.collection, id, this.array, songId);
+    },
+
     addPlaylist(playlist)
     {
         this.store.addCollection(this.collection, playlist);
+    },
+
+    removePlaylist(id)
+    {
+        const playlist = this.getPlaylist(id);
+        this.store.removeCollection(this.collection, playlist);
     },
 };
 
