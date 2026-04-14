@@ -1,0 +1,56 @@
+{
+  "playlistCollection": [
+    {
+      "id": "01",
+      "title": "Beethoven Sonatas",
+      "rating": 3,
+      "songs": [
+        {
+          "id": "a11f4336-779a-43b8-a487-d0e66b0b8abd",
+          "title": "Looking out for you",
+          "artist": "Joy Again"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Beethoven Concertos",
+      "rating": 4,
+      "songs": [
+        {
+          "id": "07",
+          "title": "Piano Concerto No. 0",
+          "artist": "Beethoven"
+        },
+        {
+          "id": "08",
+          "title": "Piano Concerto No. 4",
+          "artist": "Beethoven"
+        },
+        {
+          "id": "09",
+          "title": "Piano Concerto No. 6",
+          "artist": "Beethoven"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "rating": 2,
+      "title": "Beethoven Unfinished Symphonies",
+      "songs": [
+        {
+          "id": "482c4438-5bbf-480a-bf9a-5416c1b2b95e",
+          "title": "Miss Europa Disco Dancer",
+          "artist": "The Manic Street Preachers"
+        }
+      ]
+    },
+    {
+      "id": "b6f066b8-4a52-4193-9253-b378ba5ba711",
+      "title": "Lee's Favourite Songs",
+      "rating": 4,
+      "songs": []
+    }
+  ]
+}
