@@ -12,6 +12,7 @@
     <section class="ui left aligned middle aligned segment">
 
       <h3 class="ui header">
+<<<<<<< HEAD
         {{uppercase title}}
       </h3>
       
@@ -50,6 +51,27 @@
       <a href="/dashboard/deleteplaylist/{{id}}">
         <i class="ui black trash icon"></i>
       </a>
+=======
+        {{title}}
+      </h3>
+      
+      {{#if songs}}
+        <p>
+          Total songs: {{songs.length}}
+        </p>
+      {{else}}
+        <p>
+          Empty playlist!
+        </p>
+      {{/if}}
+	  <a href="/playlist/{{id}}">
+	     <i class = "ui open folder outline black icon"></i>
+	  </a>
+
+    <a href="/dashboard/deleteplaylist/{{id}}">
+      <i class="ui trash black icon"></i>
+    </a>
+>>>>>>> 319e14734ea7ccebc984d21092c099888a051b76
     </section>
   {{/each}}
 
