@@ -3,29 +3,9 @@
     {
       "id": "01",
       "title": "Beethoven Sonatas",
-<<<<<<< HEAD
       "rating": 3,
       "songs": [
         {
-=======
-      "songs": [
-        {
-          "id": "04",
-          "title": "Piano Sonata No. 3",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "05",
-          "title": "Piano Sonata No. 7",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "06",
-          "title": "Piano Sonata No. 10",
-          "artist": "Beethoven"
-        },
-        {
->>>>>>> 319e14734ea7ccebc984d21092c099888a051b76
           "id": "a11f4336-779a-43b8-a487-d0e66b0b8abd",
           "title": "Looking out for you",
           "artist": "Joy Again"
@@ -35,10 +15,7 @@
     {
       "id": "02",
       "title": "Beethoven Concertos",
-<<<<<<< HEAD
       "rating": 4,
-=======
->>>>>>> 319e14734ea7ccebc984d21092c099888a051b76
       "songs": [
         {
           "id": "07",
@@ -59,7 +36,6 @@
     },
     {
       "id": "03",
-<<<<<<< HEAD
       "rating": 2,
       "title": "Beethoven Unfinished Symphonies",
       "songs": [
@@ -74,9 +50,6 @@
       "id": "b6f066b8-4a52-4193-9253-b378ba5ba711",
       "title": "Lee's Favourite Songs",
       "rating": 4,
-=======
-      "title": "Beethoven Unfinished Symphonies",
->>>>>>> 319e14734ea7ccebc984d21092c099888a051b76
       "songs": []
     }
   ]
