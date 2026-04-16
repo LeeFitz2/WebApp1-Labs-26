@@ -31,6 +31,7 @@ const dashboard =
       title: request.body.title,
       date: timestamp,
       songs: [],
+      rating: parseInt(request.body.rating),
     };
     playlistStore.addPlaylist(newPlaylist);
     response.redirect('/dashboard');

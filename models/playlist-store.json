@@ -26,11 +26,6 @@
           "id": "08",
           "title": "Piano Concerto No. 4",
           "artist": "Beethoven"
-        },
-        {
-          "id": "09",
-          "title": "Piano Concerto No. 6",
-          "artist": "Beethoven"
         }
       ]
     },
@@ -47,10 +42,18 @@
       ]
     },
     {
-      "id": "b6f066b8-4a52-4193-9253-b378ba5ba711",
-      "title": "Lee's Favourite Songs",
-      "rating": 4,
-      "songs": []
+      "id": "b094a063-b7ea-4ab0-87ab-c948228d8a74",
+      "title": "Playlist",
+      "date": "2026-04-16T12:41:28.671Z",
+      "songs": [],
+      "rating": "2"
+    },
+    {
+      "id": "d8ef71d0-48a6-4252-8f05-b9a73f9682dd",
+      "title": "Funny Playlist",
+      "date": "2026-04-16T12:54:55.223Z",
+      "songs": [],
+      "rating": 3
     }
   ]
 }
