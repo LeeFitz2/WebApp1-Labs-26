@@ -2,6 +2,7 @@
 import logger from "../utils/logger.js";
 import playlistStore from "../models/playlist-store.js";
 import accounts from "./accounts.js";
+import userStore from "../models/user-store.js";
 
 const stats =
 {
@@ -13,6 +14,7 @@ const stats =
 
       // app statistics calculations
       const playlists = playlistStore.getAllPlaylists();
+      const users = userStore.getAllUsers();
 
       let numPlaylists = playlists.length;
 
@@ -23,6 +25,8 @@ const stats =
       let totalRating = playlists.reduce((total, playlist) => total + parseInt(playlist.rating), 0);
 
       let avgRating = numPlaylists > 0 ? totalRating / numPlaylists : 0;
+
+      let totalUsers = users.length;
 
       let maxRating = playlists.length > 0 ? Math.max(...playlists.map(playlist => playlist.rating)) : 0;
       let maxRated = playlists.filter(playlist => playlist.rating === maxRating);
@@ -41,6 +45,7 @@ const stats =
         displayFav: favTitles,
         longest: longestSize,
         longestTitles: longestPlaylistTitles,
+        totalUsers: totalUsers,
       };
 
       const viewData = {
