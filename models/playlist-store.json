@@ -1,66 +1,28 @@
 {
   "playlistCollection": [
     {
-      "id": "01",
-      "title": "Beethoven Sonatas",
-      "rating": 3,
-      "songs": [
-        {
-          "id": "a11f4336-779a-43b8-a487-d0e66b0b8abd",
-          "title": "Looking out for you",
-          "artist": "Joy Again"
-        }
-      ]
-    },
-    {
-      "id": "02",
-      "title": "Beethoven Concertos",
-      "rating": 4,
-      "songs": [
-        {
-          "id": "07",
-          "title": "Piano Concerto No. 0",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "08",
-          "title": "Piano Concerto No. 4",
-          "artist": "Beethoven"
-        }
-      ]
-    },
-    {
-      "id": "03",
-      "rating": 2,
-      "title": "Beethoven Unfinished Symphonies",
-      "songs": [
-        {
-          "id": "482c4438-5bbf-480a-bf9a-5416c1b2b95e",
-          "title": "Miss Europa Disco Dancer",
-          "artist": "The Manic Street Preachers"
-        }
-      ]
-    },
-    {
-      "id": "b094a063-b7ea-4ab0-87ab-c948228d8a74",
-      "title": "Playlist",
-      "date": "2026-04-16T12:41:28.671Z",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "id": "c676288f-738b-406a-bf64-1e9b431e40ff",
+      "title": "Homer's Playlist",
+      "date": "2026-04-20T13:40:36.928Z",
       "songs": [],
-      "rating": "2"
+      "rating": 4
     },
     {
-      "id": "d8ef71d0-48a6-4252-8f05-b9a73f9682dd",
-      "title": "Funny Playlist",
-      "date": "2026-04-16T12:54:55.223Z",
+      "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "id": "c2025b6a-5cfe-4042-95c8-76a65032db35",
+      "title": "Marge List",
+      "date": "2026-04-20T13:41:02.812Z",
       "songs": [],
       "rating": 3
     },
     {
-      "id": "2f3d2704-a3c2-440e-b543-cdf5b59e5e70",
-      "title": "Lee",
-      "date": "2026-04-16T15:49:13.513Z",
+      "userid": "bf162b49-3d47-4201-b92d-9ec75c48b1be",
+      "id": "47423652-4e42-44d7-9bd7-edc62685e1c2",
+      "title": "Playlist",
+      "date": "2026-04-20T13:55:48.935Z",
       "songs": [],
-      "rating": 4
+      "rating": 3
     }
   ]
 }
