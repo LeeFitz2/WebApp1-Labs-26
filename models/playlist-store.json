@@ -23,6 +23,14 @@
       "date": "2026-04-20T13:55:48.935Z",
       "songs": [],
       "rating": 3
+    },
+    {
+      "userid": "72daa650-6c3b-49f6-abe5-394f6e4e4571",
+      "id": "f057d636-512d-4460-8c58-917e2ec165f4",
+      "title": "John's Playlist",
+      "date": "2026-04-21T08:31:26.274Z",
+      "songs": [],
+      "rating": 3
     }
   ]
 }

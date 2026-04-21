@@ -19,28 +19,14 @@
       "lastName": "Fitzgerald",
       "email": "lee@fitz.com",
       "password": "secret",
-      "id": "bf162b49-3d47-4201-b92d-9ec75c48b1be"
-    },
-    {
-      "firstName": "Joe",
-      "lastName": "Bloggs",
-      "email": "joe@bloggs.ie",
-      "password": "secret",
-      "id": "fa20fb16-a7f9-47e2-bbe4-bc4665158430"
-    },
-    {
-      "firstName": "Tony",
-      "lastName": "Green",
-      "email": "tony@green.com",
-      "password": "secret",
-      "id": "df151f87-8cb7-4802-afed-51921425c0d4"
+      "id": "27135e42-41e4-4ee3-95f1-c94a9d066fcc"
     },
     {
       "firstName": "John",
       "lastName": "Test",
-      "email": "test@test.com",
+      "email": "john@test.com",
       "password": "secret",
-      "id": "5d499d60-139b-4b3f-b504-b2092b1cf6c4"
+      "id": "72daa650-6c3b-49f6-abe5-394f6e4e4571"
     }
   ]
 }

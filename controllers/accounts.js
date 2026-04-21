@@ -42,8 +42,10 @@ const accounts = {
     const user = request.body;
     user.id = uuidv4();
     userStore.addUser(user);
-    logger.info('registering' + user.email);
-    response.redirect('/');
+    logger.info('registering ' + user.email);
+    //Logs in the user directly after signup
+    response.cookie('playlist', user.email)
+    response.redirect('/start');
   },
   
   //authenticate function to check user credentials and either render the login page again or the start page.
@@ -51,7 +53,7 @@ const accounts = {
     const user = userStore.getUserByEmail(request.body.email);
     if (user && request.body.password === user.password) {
       response.cookie('playlist', user.email);
-      logger.info('logging in' + user.email);
+      logger.info('logging in ' + user.email);
       response.redirect('/start');
     } else {
       response.redirect('/login');
